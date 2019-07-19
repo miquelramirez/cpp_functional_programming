@@ -1,2 +1,3 @@
-# cpp_functional_programming
-Functional Programming in C++
+# Functional Programming in C++
+
+Ivan Kucik's book examples, exercises and scratches inspired by them.
