@@ -6,6 +6,7 @@
       <config projectName="functional_programming_cpp_doodads" targetName="ch2_averages" />
       <config projectName="functional_programming_cpp_doodads" targetName="ch2_partitioning" />
       <config projectName="functional_programming_cpp_doodads" targetName="ch2_filter_n_transform" />
+      <config projectName="functional_programming_cpp_doodads" targetName="ch3_function_pointers" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,14 +15,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e46db48-b137-49b4-a76b-ad3828e4c0a9" name="Default Changelist" comment="CLion Project files">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="9e46db48-b137-49b4-a76b-ad3828e4c0a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch3_function_pointers.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_averages.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_averages.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_collection_partitioning.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_collection_partitioning.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch2_string_trimming.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch2_string_trimming.cxx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,20 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch2_collection_partitioning.cxx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="412">
+              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -70,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="-923">
               <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding>
                 <element signature="e#81#100#0" expanded="true" />
@@ -79,26 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch2_string_trimming.cxx">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch3_function_pointers.cxx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch2_averages.cxx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="181">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -126,9 +96,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx" />
         <option value="$PROJECT_DIR$/src/ch2_averages.cxx" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/ch2_string_trimming.cxx" />
         <option value="$PROJECT_DIR$/src/ch2_collection_partitioning.cxx" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/ch3_function_pointers.cxx" />
       </list>
     </option>
   </component>
@@ -172,6 +143,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sandboxes\cpp_functional_programming\src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -205,11 +181,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ch3_function_pointers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="functional_programming_cpp_doodads" TARGET_NAME="ch3_function_pointers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="functional_programming_cpp_doodads" RUN_TARGET_NAME="ch3_function_pointers">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.ch2_averages" />
       <item itemvalue="CMake Application.ch2_filter_n_transform" />
       <item itemvalue="CMake Application.ch2_partitioning" />
       <item itemvalue="CMake Application.ch2_string_trimming" />
+      <item itemvalue="CMake Application.ch3_function_pointers" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -224,7 +206,7 @@
       <updated>1563494419676</updated>
       <workItem from="1563494421148" duration="62000" />
       <workItem from="1563494547148" duration="10652000" />
-      <workItem from="1563752232414" duration="1615000" />
+      <workItem from="1563752232414" duration="3342000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 2 &#10;&#10; - Average example&#10; - String trimming example&#10; - Collection partitioning example&#10; - Filtering &amp; Transforming example">
       <created>1563506363360</created>
@@ -254,11 +236,27 @@
       <option name="project" value="LOCAL" />
       <updated>1563506440605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CLion Project files &amp; Headers&#10;&#10; - Updated project files to support MSVC&#10; - Fixed a number of issues with missing headers, MSVC implementation of the STL is really strict with includes">
+      <created>1563754469639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563754469639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12329000" />
+    <option name="totallyTimeSpent" value="14056000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="925" extended-state="6" />
@@ -273,13 +271,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32955974" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32955974" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32976446" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.27421385" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32955974" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32955974" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32955974" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32955974" />
+      <window_info active="true" anchor="bottom" id="CMake" order="12" visible="true" weight="0.32955974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -294,7 +292,8 @@
     <MESSAGE value="Chapter 2 &#10;&#10; - Average example&#10; - String trimming example&#10; - Collection partitioning example&#10; - Filtering &amp; Transforming example" />
     <MESSAGE value="Updated" />
     <MESSAGE value="CLion Project files" />
-    <option name="LAST_COMMIT_MESSAGE" value="CLion Project files" />
+    <MESSAGE value="CLion Project files &amp; Headers&#10;&#10; - Updated project files to support MSVC&#10; - Fixed a number of issues with missing headers, MSVC implementation of the STL is really strict with includes" />
+    <option name="LAST_COMMIT_MESSAGE" value="CLion Project files &amp; Headers&#10;&#10; - Updated project files to support MSVC&#10; - Fixed a number of issues with missing headers, MSVC implementation of the STL is really strict with includes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -310,12 +309,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx">
+    <entry file="file://$PROJECT_DIR$/src/ch2_collection_partitioning.cxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="161">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
-            <element signature="e#81#100#0" expanded="true" />
+            <element signature="e#40#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -323,17 +322,10 @@
     <entry file="file://$PROJECT_DIR$/src/ch2_averages.cxx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -347,13 +339,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch2_collection_partitioning.cxx">
+    <entry file="file://$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="-923">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <element signature="e#40#59#0" expanded="true" />
+            <element signature="e#81#100#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch3_function_pointers.cxx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
