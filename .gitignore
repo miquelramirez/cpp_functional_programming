@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# MSVC stuff
+*.ilk
+*.pdb
+
+# CLion generated directories
+cmake-build-debug
+cmake-build-release
