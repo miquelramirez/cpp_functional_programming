@@ -38,3 +38,5 @@
 # CLion generated directories
 cmake-build-debug
 cmake-build-release
+bin/ch2_partitioning
+bin/ch2_string_trimming
