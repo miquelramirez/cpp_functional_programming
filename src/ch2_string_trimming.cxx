@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include <cctype>
 
 bool is_not_space(char c) {
     return !std::isspace(c);

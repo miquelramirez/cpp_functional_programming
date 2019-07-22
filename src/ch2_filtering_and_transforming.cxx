@@ -8,6 +8,8 @@
 #include <iostream>
 #include <algorithm>
 #include <iterator>
+#include <vector>
+#include <string>
 
 enum Gender{
     MALE, FEMALE, OTHER

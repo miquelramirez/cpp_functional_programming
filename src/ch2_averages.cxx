@@ -5,13 +5,11 @@
 #include <iostream>
 #include <vector>
 #include <chrono>
+#include <ctime>
 #include <random>
 #include <cmath>
 #include <algorithm>
-#ifndef _MSC_VER
-    // Currently only supported by MSVC
-    #include <execution>
-#endif
+#include <execution>
 #include <numeric>
 
 double average_score(const std::vector<int>& score_vec) {
