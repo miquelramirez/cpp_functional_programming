@@ -32,3 +32,5 @@ add_executable(ch2_partitioning src/ch2_collection_partitioning.cxx)
 add_executable(ch2_filter_n_transform src/ch2_filtering_and_transforming.cxx)
 
 add_executable(ch3_function_pointers src/ch3_function_pointers.cxx)
+
+add_executable(ch7_filter_n_transform src/ch7_filtering_and_transforming.cxx)

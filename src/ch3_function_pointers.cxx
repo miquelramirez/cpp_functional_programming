@@ -25,7 +25,9 @@ int main(int argc, char* argv[])
     std::cout << ask_ref() << '\n';
 
     convertible_to_function_ptr ask_wrapper;
-    std::cout << ask_wrapper() << '\n';
+    // MRJ: This is not compiling, there seems to be an issue with this line of code
+    // comment on the book website.
+    // std::cout << ask_wrapper() << '\n';
 
     return 0;
 }

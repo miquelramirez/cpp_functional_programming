@@ -6,20 +6,26 @@
       <config projectName="functional_programming_cpp_doodads" targetName="ch2_averages" />
       <config projectName="functional_programming_cpp_doodads" targetName="ch2_partitioning" />
       <config projectName="functional_programming_cpp_doodads" targetName="ch2_filter_n_transform" />
+      <config projectName="functional_programming_cpp_doodads" targetName="ch7_filter_n_transform" />
       <config projectName="functional_programming_cpp_doodads" targetName="ch3_function_pointers" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-DCMAKE_BUILD_TYPE=Release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e46db48-b137-49b4-a76b-ad3828e4c0a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compilerexplorer.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch7_filtering_and_transforming.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compilerexplorer.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compilerexplorer.settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch3_function_pointers.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch3_function_pointers.cxx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +35,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -45,29 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-923">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="e#81#100#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch3_function_pointers.cxx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="525">
+              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -75,8 +60,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch2_averages.cxx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="375">
+              <caret line="64" selection-start-line="64" selection-end-line="69" selection-end-column="55" />
+              <folding>
+                <element signature="e#41#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch7_filtering_and_transforming.cxx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
+                <element signature="e#221#248#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,25 +106,25 @@
         <option value="$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx" />
         <option value="$PROJECT_DIR$/src/ch2_string_trimming.cxx" />
         <option value="$PROJECT_DIR$/src/ch2_collection_partitioning.cxx" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/ch3_function_pointers.cxx" />
         <option value="$PROJECT_DIR$/src/ch2_averages.cxx" />
+        <option value="$PROJECT_DIR$/src/ch3_function_pointers.cxx" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/ch7_filtering_and_transforming.cxx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="50" />
-    <option name="y" value="380" />
-    <option name="width" value="1718" />
-    <option name="height" value="966" />
+    <option name="x" value="51" />
+    <option name="y" value="381" />
+    <option name="width" value="1717" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,10 +132,16 @@
               <item name="functional_programming_cpp_doodads" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp_functional_programming" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="functional_programming_cpp_doodads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cpp_functional_programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,7 +157,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -169,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.ch3_function_pointers">
+  <component name="RunManager" selected="CMake Application.ch7_filter_n_transform">
     <configuration name="ch2_averages" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="functional_programming_cpp_doodads" TARGET_NAME="ch2_averages" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="functional_programming_cpp_doodads" RUN_TARGET_NAME="ch2_averages">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -195,12 +202,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ch7_filter_n_transform" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="functional_programming_cpp_doodads" TARGET_NAME="ch7_filter_n_transform" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="functional_programming_cpp_doodads" RUN_TARGET_NAME="ch7_filter_n_transform">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.ch2_averages" />
       <item itemvalue="CMake Application.ch2_filter_n_transform" />
       <item itemvalue="CMake Application.ch2_partitioning" />
       <item itemvalue="CMake Application.ch2_string_trimming" />
       <item itemvalue="CMake Application.ch3_function_pointers" />
+      <item itemvalue="CMake Application.ch7_filter_n_transform" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -216,6 +229,7 @@
       <workItem from="1563494421148" duration="62000" />
       <workItem from="1563494547148" duration="10652000" />
       <workItem from="1563752232414" duration="4190000" />
+      <workItem from="1563844652554" duration="5156000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 2 &#10;&#10; - Average example&#10; - String trimming example&#10; - Collection partitioning example&#10; - Filtering &amp; Transforming example">
       <created>1563506363360</created>
@@ -256,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14904000" />
+    <option name="totallyTimeSpent" value="21088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,14 +282,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="925" extended-state="6" />
+    <frame x="51" y="230" width="1869" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25623584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25779969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32976446" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32976446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,13 +299,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.27421385" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32955974" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3119497" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.31156316" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32955974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Compiler Explorer" order="4" side_tool="true" weight="0.32955405" />
+      <window_info anchor="right" id="Compiler Explorer" order="4" side_tool="true" weight="0.32950193" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,33 +319,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="CLion Project files &amp; Headers&#10;&#10; - Updated project files to support MSVC&#10; - Fixed a number of issues with missing headers, MSVC implementation of the STL is really strict with includes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch2_collection_partitioning.cxx">
+    <entry file="file://$PROJECT_DIR$/src/ch3_function_pointers.cxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch2_string_trimming.cxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
@@ -339,39 +358,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch2_filtering_and_transforming.cxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-923">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="264">
+          <caret line="74" selection-start-line="74" selection-end-line="90" selection-end-column="18" />
           <folding>
             <element signature="e#81#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/src/ch2_collection_partitioning.cxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+        <state relative-caret-position="299">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="525">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch2_averages.cxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="375">
+          <caret line="64" selection-start-line="64" selection-end-line="69" selection-end-column="55" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch3_function_pointers.cxx">
+    <entry file="file://$PROJECT_DIR$/src/ch7_filtering_and_transforming.cxx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+            <element signature="e#221#248#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
